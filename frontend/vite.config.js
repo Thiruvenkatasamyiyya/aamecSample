@@ -5,6 +5,7 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base : "/",
   publicDir: 'public', // makes sure public files get copied
   build: {
     rollupOptions: {
